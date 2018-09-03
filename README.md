@@ -47,13 +47,13 @@ Error didn't occur because it was hard to exceed the rate limit(1200) within one
 * Interval between requests: 0ms
 * Time taken to send 1200 requests and receive responses: 2.8s
 
-The following error occured attempting to send almost 1200 requests without an interval.
+The following error occurred attempting to send almost 1200 requests without an interval.
 ```
 APIError(code=-1003): Too many requests; current limit is 1200 requests per minute.
 Please use the websocket for live updates to avoid polling the API.
 ```
 
-The following error occured continuously attempting to send more requests.
+The following error occurred continuously attempting to send more requests.
 ```
 APIError(code=-1003): Way too many requests; IP banned until 1535856370598.
 Please use the websocket for live updates to avoid bans.
@@ -65,13 +65,13 @@ Please use the websocket for live updates to avoid bans.
 * Interval between requests: 40ms
 * Time taken to send 1200 requests and receive responses: 52.1s
 
-The following error occured attempting to send almost 1200 requests at 40ms interval.
+The following error occurred attempting to send almost 1200 requests at 40ms interval.
 ```
 APIError(code=-1003): Too many requests; current limit is 1200 requests per minute.
 Please use the websocket for live updates to avoid polling the API.
 ```
 
-The following error occured continuously attempting to send more requests.
+The following error occurred continuously attempting to send more requests.
 ```
 APIError(code=0): Invalid JSON error message from Binance: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <HTML><HEAD><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
@@ -111,7 +111,7 @@ POST /api/v3/order  (HMAC SHA256)
 * Interval between requests: 0ms
 * Time taken to send 10 orders and receive responses: 0.5s
  
-The following error occured attempting to send 11 orders.
+The following error occurred attempting to send 11 orders.
 ```
 APIError(code=-1015): Too many new orders; current limit is 10 orders per SECOND.
 ```
