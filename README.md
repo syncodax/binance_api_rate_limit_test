@@ -43,7 +43,7 @@ Error didn't occur because it was hard to exceed the rate limit(1200) within one
 
 ### Threaded #1
 
-* Log: [binance_api_rate_limit_test_request_threaded#1.log](https://github.com/syncodax/binance_api_rate_limit_test/blob/master/log/binance_api_rate_limit_test_request_threaded%231.log) 
+* Log: [binance_api_rate_limit_test_request_threaded#1.log](log/binance_api_rate_limit_test_request_threaded%231.log) 
 * Interval between requests: 0ms
 * Time taken to send 1200 requests and receive responses: 2.8s
 
@@ -61,7 +61,7 @@ Please use the websocket for live updates to avoid bans.
 
 ### Threaded #2 with intervals between requests
 
-* Log: [binance_api_rate_limit_test_request_threaded#2.log](log/binance_api_rate_limit_test_request_threaded#2.log) 
+* Log: [binance_api_rate_limit_test_request_threaded#2.log](log/binance_api_rate_limit_test_request_threaded%232.log) 
 * Interval between requests: 40ms
 * Time taken to send 1200 requests and receive responses: 52.1s
 
@@ -107,7 +107,7 @@ POST /api/v3/order  (HMAC SHA256)
 
 ### Non-threaded #1
 
-* Log: [binance_api_rate_limit_test_order_non-threaded#1.log](log/binance_api_rate_limit_test_order_non-threaded#1.log)
+* Log: [binance_api_rate_limit_test_order_non-threaded#1.log](log/binance_api_rate_limit_test_order_non-threaded%231.log)
 * Interval between requests: 0ms
 * Time taken to send 10 orders and receive responses: 0.5s
  
@@ -118,7 +118,7 @@ APIError(code=-1015): Too many new orders; current limit is 10 orders per SECOND
 
 ### Non-threaded #2
 
-* Log: [binance_api_rate_limit_test_order_non-threaded#2.log](log/binance_api_rate_limit_test_order_non-threaded#2.log)
+* Log: [binance_api_rate_limit_test_order_non-threaded#2.log](log/binance_api_rate_limit_test_order_non-threaded%232.log)
 * Interval between requests: 0ms
 * Time taken to send 16 orders and receive responses: 1.9s
  
