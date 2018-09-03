@@ -43,7 +43,7 @@ Error didn't occur because it was hard to exceed the rate limit(1200) within one
 
 ### Threaded #1
 
-* Log: [binance_api_rate_limit_test_request_threaded#1.log](log/binance_api_rate_limit_test_request_threaded#1.log) 
+* Log: [binance_api_rate_limit_test_request_threaded#1.log](https://github.com/syncodax/binance_api_rate_limit_test/blob/master/log/binance_api_rate_limit_test_request_threaded%231.log) 
 * Interval between requests: 0ms
 * Time taken to send 1200 requests and receive responses: 2.8s
 
